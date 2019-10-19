@@ -1,0 +1,28 @@
+{
+  "name": "1412bookmarklet",
+  "version": "1.0.0",
+  "description": "Testing WCAG 1.4.12 Text Spacing",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs src/index.js -m --compress negate_iife=false --output dist/1412bookmarklet.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewlee/1412bookmarklet.git"
+  },
+  "keywords": [
+    "accessibility",
+    "WCAG",
+    "WCAG2.1"
+  ],
+  "author": "Andrew A Lee",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/drewlee/1412bookmarklet/issues"
+  },
+  "homepage": "https://github.com/drewlee/1412bookmarklet#readme",
+  "devDependencies": {
+    "uglify-js": "^3.6.2"
+  }
+}
