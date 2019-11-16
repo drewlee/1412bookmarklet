@@ -4,7 +4,7 @@
   "description": "Testing WCAG 1.4.12 Text Spacing",
   "main": "index.js",
   "scripts": {
-    "build": "uglifyjs src/index.js -m --compress negate_iife=false --beautify beautify=false,quote_style=1 --output dist/1412bookmarklet.min.js",
+    "build": "mkdir -p dist && uglifyjs src/index.js -m --compress negate_iife=false --beautify beautify=false,quote_style=1 --output dist/1412bookmarklet.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
