@@ -5,10 +5,28 @@
   <title>Test WCAG 4.1.12 Bookmarklet</title>
   <meta name="description" content="Test WCAG 4.1.12 Bookmarklet">
   <meta name="author" content="Andrew A Lee">
+  <style>
+    html {
+      font: 100% Helvetica, Arial, sans-serif;
+    }
+
+    .styled-link {
+      box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+      color: #fff;
+      background-color: #000;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    .styled-link:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
   <h1>Test WCAG 4.1.12 Bookmarklet</h1>
-  <a href="javascript:(function(e){var t,n,i='WCAG 2.1 1.4.12 bookmarklet';if(void 0!==e[i])return document.head.removeChild(e[i].instance),delete e[i];t=document.createElement('style'),e[i]={},e[i].instance=t,document.head.appendChild(t),(n=t.sheet).insertRule('*{line-height:1.5!important;}'),n.insertRule('*{letter-spacing:0.12em!important;}'),n.insertRule('*{word-spacing:0.16em!important;}'),n.insertRule('p{margin-bottom:2em!important;}')})(window);">Test WCAG 4.1.12</a>
+  <p>TODO</p>
+  <a class="styled-link" href="javascript:(function(e){var t,n,i='WCAG 2.1 1.4.12 bookmarklet';if(void 0!==e[i])return document.head.removeChild(e[i].instance),delete e[i];t=document.createElement('style'),e[i]={},e[i].instance=t,document.head.appendChild(t),(n=t.sheet).insertRule('*{line-height:1.5!important;}'),n.insertRule('*{letter-spacing:0.12em!important;}'),n.insertRule('*{word-spacing:0.16em!important;}'),n.insertRule('p{margin-bottom:2em!important;}')})(window);">Test WCAG 4.1.12</a>
 </body>
 </html>
