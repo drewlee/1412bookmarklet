@@ -29,6 +29,6 @@
 
   <p>Drag the link below into your Bookmarks Bar. Activate the bookmarklet to test custom text spacing. Activate again to revert to default text styles.</p>
 
-  <a class="styled-link" href="javascript:(function(e){var t,n,i='WCAG 2.1 1.4.12 bookmarklet';if(void 0!==e[i])return document.head.removeChild(e[i].instance),delete e[i];t=document.createElement('style'),e[i]={},e[i].instance=t,document.head.appendChild(t),(n=t.sheet).insertRule('*{line-height:1.5!important;}'),n.insertRule('*{letter-spacing:0.12em!important;}'),n.insertRule('*{word-spacing:0.16em!important;}'),n.insertRule('p{margin-bottom:2em!important;}')})(window);">Test WCAG 4.1.12</a>
+  <a class="styled-link" href="(function(e){var t,n,i='WCAG 2.1 1.4.12 bookmarklet';void 0!==e[i]?(document.head.removeChild(e[i].instance),delete e[i]):(t=document.createElement('style'),e[i]={},e[i].instance=t,document.head.appendChild(t),(n=t.sheet).insertRule('*{line-height:1.5!important;}'),n.insertRule('*{letter-spacing:0.12em!important;}'),n.insertRule('*{word-spacing:0.16em!important;}'),n.insertRule('p{margin-bottom:2em!important;}'))})(window);">Test WCAG 4.1.12</a>
 </body>
 </html>
